@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: white;
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.phone {
+  font-size: 1rem;
+}
+
+.call-btn {
+  background-color: #d6cd45;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  background-color: #d6cd45;
+  padding: 12px 0;
+}
+
+.navbar a {
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 30px;
+  background-color: white;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  color: #444;
+}
+
+.hero-image img {
+  max-width: 400px;
+  height: auto;
+}
